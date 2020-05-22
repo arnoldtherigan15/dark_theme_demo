@@ -3,7 +3,7 @@ Super Easy Way to apply dark theme on any website
 
 Dark mode has become incredibly popular in the last year and all popular apps nowadays offer a toggle to turn it on.
 
-Darkmode.js is very easy to use, just copy paste the following code or use the npm package.
+<a href="https://darkmodejs.learn.uno/" target="_blank">Darkmode.js</a> is very easy to use, just copy paste the following code or use the npm package.
 
 <h3>🚀 Easy way (using the JSDelivr CDN)</h3>
 
@@ -51,4 +51,6 @@ darkmode.showWidget();
 
 <p>Boom, the dark mode button will be added on the bottom of your web page</p>
 
-<p>Custom button or styling you can see on Darkmode.js documentation<p>
+<p>you can see the demo on my website <a href="https://arnoldtherigan15.github.io/dark_theme_demo/" target="_blank">here</a></p>
+
+<p>Custom button or styling you can see on Darkmode.js <a href="https://darkmodejs.learn.uno/" target="_blank">documentation</a><p>
