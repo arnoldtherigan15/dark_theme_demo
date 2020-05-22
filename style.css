@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu div {
+    margin: 0 5px;
+    font-size: 2rem;
+}
+
+.menu div a {
+    color: black;
+}
+.logo {
+    font-size: 2rem;
+    font-family: 'Marck Script', cursive;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    background: url("https://scottbalmer.co.uk/wp-content/uploads/2019/06/title.jpg");
+}
+
+.container {
+    display: flex;
+    padding: 2rem;
+}
+
+.container .left {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    padding-left: 5rem;
+    font-family: 'Marck Script', cursive;
+}
+.container .right {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .right img {
+    width: 80%;
+}
+
+@media screen and (max-width: 950px) {
+    .container {
+        display: inline-block;
+    }
+    .container .left {
+        width: 100%;
+        padding: 0;
+        /* text-align: center; */
+    }
+    .container .right {
+        width: 100%;
+    }
+}
+
+.first-block {
+    position: absolute;
+    width: 0;
+    height: 100vh;
+    background: url("https://www.pagesuite.com/wp-content/uploads/2018/01/Particle_Tester.gif") no-repeat 50% 50%;
+    background-size: cover;
+    animation: go-left 4s cubic-bezier(.74, .06, .4, .92) forwards;
+    left: 0;
+    z-index: 9999;
+}
+
+@keyframes go-left {
+    0% {
+        left: 0;
+        width: 0;
+    }
+    50% {
+        left: 0;
+        width: 100%;
+    }
+    100% {
+        left: 100%;
+        width: 0;
+    }
+}
+
+.menu i {
+    transition: 0.5s;
+}
+
+.menu i:hover {
+    transform: scale(1.2);
+}
